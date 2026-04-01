@@ -1,4 +1,4 @@
-## TlxKeyLogger
+# TlxKeyLogger
 
 Este es un keylogger remoto llamado "TlxKeyLogger" desarrollado en Python. El sistema consiste en un cliente keylogger que captura las pulsaciones del teclado y las envía a través de una conexión de red a un servidor que recibe y muestra los datos en tiempo real.
 
@@ -18,11 +18,15 @@ Este es un keylogger remoto llamado "TlxKeyLogger" desarrollado en Python. El si
 ```bash
 # Clonar el repositorio
 git clone https://github.com/agk-tlanex/tlxkeylog
+```
+```bash
 cd tlxkeylog
-
+```
+```bash
 # Instalar dependencias
 pip install -r requirements.txt
-
+```
+```bash
 # Ejecuta
 python main.py
 ```
